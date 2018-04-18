@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Practicum23_Delegates_Strings.Properties
+namespace Practicum23_Delegates_Events.Properties
 {
 
 

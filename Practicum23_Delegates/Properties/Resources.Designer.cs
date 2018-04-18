@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Practicum23_Delegates_Strings.Properties
+namespace Practicum23_Delegates_Events.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace Practicum23_Delegates_Strings.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Practicum23_Delegates_Strings.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Practicum23_Delegates_Events.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

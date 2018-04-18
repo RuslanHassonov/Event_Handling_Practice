@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Practicum23_Delegates_Strings
+namespace Practicum23_Delegates_Events
 {
     public class SenderCreationEventArgs
     {

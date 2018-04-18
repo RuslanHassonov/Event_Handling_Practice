@@ -1,20 +1,20 @@
-﻿<Window x:Class="Practicum23_Delegates_Strings.MessageWindow"
+﻿<Window x:Class="Practicum23_Delegates_Events.MessageWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Practicum23_Delegates_Strings"
+        xmlns:local="clr-namespace:Practicum23_Delegates_Events"
         mc:Ignorable="d"
         Title="BerichtWindow" Height="462.901" Width="413.136">
     <Grid>
         <Label Content="ID:" HorizontalAlignment="Left" Margin="23,12,0,0" VerticalAlignment="Top"/>
         <Label x:Name="labelSender" Content="" HorizontalAlignment="Left" Margin="86,12,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBoxBericht" HorizontalAlignment="Left" Height="133" Margin="23,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350"/>
-        <Label Content="Naar:" HorizontalAlignment="Left" Margin="23,181,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBoxMessage" HorizontalAlignment="Left" Height="133" Margin="23,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350"/>
+        <Label Content="To:" HorizontalAlignment="Left" Margin="23,181,0,0" VerticalAlignment="Top"/>
         <Button x:Name="buttonVerstuur" Content="Versturen" HorizontalAlignment="Left" Margin="298,213,0,0" VerticalAlignment="Top" Width="75" Click="buttonSend_Click"/>
         <ComboBox x:Name="comboBox_Receiver" HorizontalAlignment="Left" Margin="86,185,0,0" VerticalAlignment="Top" Width="287"/>
-        <Label Content="Ontvangen boodschap: " HorizontalAlignment="Left" Margin="23,269,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="textBox_OntvangenBoodschap" HorizontalAlignment="Left" Height="122" Margin="23,300,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="350"/>
+        <Label Content="Received Message: " HorizontalAlignment="Left" Margin="23,269,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listBox_ReceivedMessage" HorizontalAlignment="Left" Height="122" Margin="23,300,0,0" VerticalAlignment="Top" Width="350"/>
 
     </Grid>
 </Window>

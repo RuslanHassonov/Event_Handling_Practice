@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
 
-namespace Practicum23_Delegates_Strings
+namespace Practicum23_Delegates_Events
 {
     /// <summary>
     /// Interaction logic for App.xaml
